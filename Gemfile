@@ -11,3 +11,5 @@ gem 'font-awesome-middleman'
 gem 'bootstrap-sass'
 gem 'jquery-middleman'
 
+# Added by RP
+gem 'middleman-livereload', '~> 3.4', '>= 3.4.6'
