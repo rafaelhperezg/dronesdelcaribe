@@ -1,0 +1,29 @@
+.flex-container {
+  display:flex;
+  &.space-around {
+    justify-content: space-around;
+  }
+  &.flex-wrap {
+    flex-wrap: wrap;
+  }
+}
+
+
+
+
+.pad-y-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.pad-bottom-40 {
+  padding-bottom: 40px;
+}
+
+
+.mar-bottom-40 {
+  margin-bottom: 30px;
+}
+.mar-bottom-30 {
+  margin-bottom: 30px;
+}

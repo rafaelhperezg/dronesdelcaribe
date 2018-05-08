@@ -51,10 +51,17 @@ $ddc-sand-lighter: #F7F7F7; //rgb(247, 247, 247); //from mockup
 /* FONT COLORS
 /* __________________________________ */
 
-h1 {
+h1, h3 {
   color: $ddc-light-black !important;
+}
+h2 {
+  color: $red !important;
 }
 
 p {
   color: $gray;
+}
+
+.bckg-sand-lighter {
+  background-color: $ddc-sand-lighter;
 }

@@ -15,3 +15,13 @@
     font-size: 16px;
   }
 }
+
+
+#about-us {
+  .subtitle {
+    flex: 0 1 100%;
+  }
+  .flex-item {
+    flex: 0 1 30%;
+  }
+}
