@@ -16,12 +16,59 @@
   }
 }
 
-
+// TODO may be the code for this section shoule be make like generic, on a card for example
 #about-us {
   .subtitle {
-    flex: 0 1 100%;
+    flex: 1 1 100%;
   }
   .flex-item {
-    flex: 0 1 30%;
+    flex: 1 1 100%;
+    background: white;
+    padding: 40px 40px;
+
   }
 }
+
+
+#services {
+  background-image: url("/../images/servicios-drones-background.jpg");
+  background-size: contain;
+  background-position: -120px;
+  background-repeat: no-repeat;
+  background-color: #f8f9fb;
+}
+
+/* RESPONSIVENESS
+--------------------------------------------------- */
+// Big Screens
+@media only screen and(min-width: 2000px) {
+  #services {
+    background-position: 120px;
+  }
+}
+// After Small Screens
+@media only screen and(max-width: 767px) {
+  #services {
+    background-image: none;
+  }
+}
+// Small Screens
+@media only screen and(min-width: 768px) {
+  #about-us {
+    .flex-item {
+      flex: 0 1 32%;
+      padding: 80px 40px;
+      margin: 0
+    }
+  }
+  #services {
+    h2, h3, p {
+      text-align: left;
+    }
+  }
+}
+
+
+
+
+

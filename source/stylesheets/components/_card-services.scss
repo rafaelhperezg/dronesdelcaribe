@@ -1,0 +1,15 @@
+div.card-services {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  .image-container {
+    flex: 0 0 76px;
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .content-container {
+
+  }
+}

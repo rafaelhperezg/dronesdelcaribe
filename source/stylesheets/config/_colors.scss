@@ -51,17 +51,37 @@ $ddc-sand-lighter: #F7F7F7; //rgb(247, 247, 247); //from mockup
 /* FONT COLORS
 /* __________________________________ */
 
-h1, h3 {
+h1, h3, h4 {
   color: $ddc-light-black !important;
 }
 h2 {
   color: $red !important;
+  font-size: 18px !important;
+  font-weight: bolder !important;
+}
+h3 {
+  font-size: 30px !important;
+}
+
+h4 {
+  font-size: 16px !important;
+  font-weight: bold !important;
 }
 
 p {
   color: $gray;
+  font-size: 14px;
+  font-weight: 100;
 }
 
+.bckg-sand {
+  background-color: $ddc-sand !important;
+}
 .bckg-sand-lighter {
   background-color: $ddc-sand-lighter;
 }
+
+.bckg-white {
+  background-color: white;
+}
+

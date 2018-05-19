@@ -1,7 +1,16 @@
+img {
+  max-width: 100%;
+}
+
+
+
 .flex-container {
   display:flex;
   &.space-around {
     justify-content: space-around;
+  }
+  &.space-between {
+    justify-content: space-between;
   }
   &.flex-wrap {
     flex-wrap: wrap;
@@ -15,7 +24,6 @@
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
 .pad-bottom-40 {
   padding-bottom: 40px;
 }
@@ -26,4 +34,17 @@
 }
 .mar-bottom-30 {
   margin-bottom: 30px;
+}
+.mar-bottom-20 {
+  margin-bottom: 20px;
+}
+
+
+.dots {
+  font-size: 80px;
+  margin-left: -3px;
+  margin-top: 24px;
+  line-height: 16px;
+  letter-spacing: -10px;
+  color: $ddc-light-black !important;
 }
