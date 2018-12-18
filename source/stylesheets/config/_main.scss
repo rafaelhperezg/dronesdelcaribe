@@ -15,6 +15,18 @@ img {
   &.flex-wrap {
     flex-wrap: wrap;
   }
+  &.vertical-center {
+    align-items: center;
+  }
+  &.vertical-flex-start {
+    align-items: flex-start;
+  }
+  &.vertical-flex-end {
+    align-items: flex-end;
+  }
+  &.vertical-baseline {
+    align-items: baseline;
+  }
 }
 
 
