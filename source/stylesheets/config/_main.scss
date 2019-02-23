@@ -1,9 +1,59 @@
+// body {
+//   background-color: #f8f9fb;
+// }
+
+
+
+
+
+
+// Elements
+
 img {
   max-width: 100%;
 }
 
+h1, h3, h4 {
+  color: $ddc-light-black !important;
+}
+
+h2 {
+  color: $red !important;
+  font-size: 18px !important;
+  font-weight: bolder !important;
+}
+
+h3 {
+  font-size: 30px !important;
+}
+
+h4 {
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
+
+h5 {
+  font-size: 14px !important;
+  font-weight: bold !important;
+}
+
+p, li {
+  color: $gray;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+iframe {
+  max-width: 100% !important;
+}
+
+ul {
+  list-style-type: none !important;
+}
 
 
+
+// General Classes
 .flex-container {
   display:flex;
   &.space-around {
@@ -26,6 +76,10 @@ img {
   }
   &.vertical-baseline {
     align-items: baseline;
+  }
+  .flex-item {
+    flex: 1 1 100%;
+    padding: 40px 40px;
   }
 }
 
@@ -59,4 +113,27 @@ img {
   line-height: 16px;
   letter-spacing: -10px;
   color: $ddc-light-black !important;
+}
+
+.link-social {
+  color: $red;
+  padding-right: 8px;
+}
+
+
+@media only screen and(min-width: 2000px) {
+
+}
+// After Small Screens
+@media only screen and(max-width: 767px) {
+
+}
+// Small Screens
+@media only screen and(min-width: 768px) {
+  .flex-container {
+    .flex-item {
+      flex: 0 1 32%;
+      margin: 0;
+    }
+  }
 }

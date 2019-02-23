@@ -11,10 +11,10 @@ $light-gray: #F4F4F4;
 
 // Added by RP:
 $red: #ee2b47; //from colorhunt
-$gray: #999; //from mockup
-
-
-
+// $gray: #999; //from mockup
+// $gray: #8e8d8d; //from me
+$gray: #6f6f6f; //from me
+$white-soft: #f8f9fb;
 
 
 /* TESTING COLORS
@@ -44,44 +44,29 @@ $ddc-black: rgb(51, 51, 51); //from mockup
 $ddc-light-black: #292d33; //rgb(39, 40, 34); from mockup
 $ddc-sand: #EEEEEE; //rgb(238, 238, 238); from mockup
 $ddc-sand-light: #f6f6f6; //from colorhunt
-$ddc-sand-lighter: #F7F7F7; //rgb(247, 247, 247); //from mockup
+$ddc-sand-lighter: #F7F7F7; //rgb(247, 247, 247); //from mocku black: #292d33; //rgb(39, 40, 34); from mockup
 
 
 
-/* FONT COLORS
+/* FONT COLOR black: #292d33; //rgb(39, 40, 34); from mockup
 /* __________________________________ */
 
-h1, h3, h4 {
-  color: $ddc-light-black !important;
-}
-h2 {
-  color: $red !important;
-  font-size: 18px !important;
-  font-weight: bolder !important;
-}
-h3 {
-  font-size: 30px !important;
-}
 
-h4 {
-  font-size: 16px !important;
-  font-weight: bold !important;
-}
 
-p {
-  color: $gray;
-  font-size: 14px;
-  font-weight: 100;
+.black {
+ color: $ddc-light-black !important;
 }
-
+.red {
+ color: $red !important;
+}
 .bckg-sand {
   background-color: $ddc-sand !important;
 }
 .bckg-sand-lighter {
-  background-color: $ddc-sand-lighter;
+  background-color: $ddc-sand-lighter !important;
 }
 
 .bckg-white {
-  background-color: white;
+  background-color: white !important;
 }
 

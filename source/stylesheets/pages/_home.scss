@@ -1,20 +1,22 @@
-#home {
-  background-color: #D23333;
-  color: white;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  text-align: center;
-  p {
-    margin-top: 1.5em;
-  }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
-  }
-}
+// #home {
+//   // background-color: #D23333;
+//   // background: white;
+//   // background-color: #f8sf9fb;
+//   color: white;
+//   height: 100vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-around;
+//   text-align: center;
+//   p {
+//     margin-top: 1.5em;
+//   }
+//   a {
+//     color: rgba(0,0,0,0.4);
+//     font-weight: bold;
+//     font-size: 16px;
+//   }
+// }
 
 // TODO may be the code for this section shoule be make like generic, on a card for example
 #about-us {
@@ -22,10 +24,9 @@
     flex: 1 1 100%;
   }
   .flex-item {
-    flex: 1 1 100%;
-    background: white;
-    padding: 40px 40px;
-
+    // flex: 1 1 100%;
+    // background: white;
+    // padding: 40px 40px;
   }
 }
 
@@ -35,8 +36,57 @@
   background-size: contain;
   background-position: -120px;
   background-repeat: no-repeat;
-  background-color: #f8f9fb;
+  // background-color: #f8sf9fb;
 }
+
+#drone-spec {
+  .flex-container {
+    align-items: center;
+  }
+  .flex-item{
+    flex: 0 1 49%;
+    .drone-details {
+      font-size: 26px;
+      font-weight: 600;
+    }
+  }
+}
+
+#projects {
+  .flex-container {
+    .flex-item {
+      padding: 10px;
+    }
+  }
+}
+
+#contact {
+  #contact-left-side {
+    .contact-list {
+      padding-left: 10px;
+    }
+  }
+  #contact-right-side {
+    background-color: white;
+    padding: 50px;
+    border-radius: 1%;
+    h2{
+      text-transform: uppercase;
+    }
+    #contact-form {
+      input, textarea {
+        font-size: 14px;
+        border-color: #e2e1e1;
+      }
+    }
+  }
+  .form-container {
+    input, textarea {
+
+    }
+  }
+}
+
 
 /* RESPONSIVENESS
 --------------------------------------------------- */
@@ -56,14 +106,19 @@
 @media only screen and(min-width: 768px) {
   #about-us {
     .flex-item {
-      flex: 0 1 32%;
+    //   flex: 0 1 32%;
       padding: 80px 40px;
-      margin: 0
+    //   margin: 0
     }
   }
   #services {
     h2, h3, p {
       text-align: left;
+    }
+  }
+  #drone-spec {
+    .flex-item{
+      flex: 0 1 24%;
     }
   }
 }
