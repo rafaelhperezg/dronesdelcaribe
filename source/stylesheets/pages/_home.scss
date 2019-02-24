@@ -40,14 +40,31 @@
 }
 
 #drone-spec {
+  position: relative;
+  z-index: -2;
+  .image-container-top {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    width: 200px;
+    right: -91px;
+  }
+  .image-container-bottom {
+    z-index: -1;
+    position: absolute;
+    width: 200px;
+    bottom:0;
+    left: -90px;
+  }
   .flex-container {
     align-items: center;
-  }
-  .flex-item{
-    flex: 0 1 49%;
-    .drone-details {
-      font-size: 26px;
-      font-weight: 600;
+    .flex-item{
+      flex: 0 1 100%;
+      padding: 30px;
+      .drone-details {
+        font-size: 26px;
+        font-weight: 600;
+      }
     }
   }
 }
@@ -117,8 +134,19 @@
     }
   }
   #drone-spec {
-    .flex-item{
-      flex: 0 1 24%;
+    .image-container-top {
+      width: initial;
+      right: -172px;
+    }
+    .image-container-bottom {
+      width: initial;
+      left: -170px;
+    }
+    .flex-container {
+      .flex-item{
+        flex: 0 1 24%;
+        padding: 40px;
+      }
     }
   }
 }
