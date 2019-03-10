@@ -54,6 +54,8 @@ ul {
 
 
 // General Classes
+
+/* Flex */
 .flex-container {
   display:flex;
   &.space-around {
@@ -84,8 +86,7 @@ ul {
 }
 
 
-
-
+/* Paddings */
 .pad-y-100 {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -95,6 +96,7 @@ ul {
 }
 
 
+/* Margins */
 .mar-bottom-40 {
   margin-bottom: 30px;
 }
@@ -106,6 +108,15 @@ ul {
 }
 
 
+/* Visibility and Display */
+.visib-hidden {
+  visibility: hidden;
+}
+.hidden {
+  display: none;
+}
+
+/* Others */
 .dots {
   font-size: 80px;
   margin-left: -3px;
