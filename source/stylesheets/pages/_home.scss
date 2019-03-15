@@ -42,6 +42,7 @@
 #drone-spec {
   position: relative;
   z-index: -2;
+  overflow: hidden;
   .image-container-top {
     z-index: -1;
     position: absolute;
@@ -113,13 +114,15 @@
     background-position: 120px;
   }
 }
-// After Small Screens
+
+// Small Screens
 @media only screen and(max-width: 767px) {
   #services {
     background-image: none;
   }
 }
-// Small Screens
+
+// After Small Screens
 @media only screen and(min-width: 768px) {
   #about-us {
     .flex-item {

@@ -2,11 +2,15 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12">
-        <div class="flex-container space-between vertical-center">
-          <p class="flex-item">COPYRIGHT 2018 © Drones Del Caribe<br>Diseño logos por El publicista<br>Diseño web y Dessarollo por rafaelhperezg@gmail.com</p>
-          <%= image_tag "drones_del_caribe_logo.png", :class => "flex-item logo" %>
-          <div class="social-links flex-item">
-            <p>Síguenos en:</p>
+        <div class="footer-card space-between vertical-center">
+          <div class="footer-element">
+            <img src="images/drones_del_caribe_logo_no_text.png" id="logo-footer" alt="logo Drones Del Caribe">
+          </div>
+          <div class="footer-element">
+            <!-- TODO add links? -->
+          </div>
+          <div class="footer-element social-links">
+            <h4>Síguenos en las redes sociales</h4>
             <div class="links-container">
               <% admin = data.admin %>
               <% link_to "https://facebook.com/#{admin.facebook_nickname}", target: "_blank" do %>
@@ -19,6 +23,9 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="row">
+      <p class="text-center">COPYRIGHT 2019 © Drones Del Caribe</p>
     </div>
   </div>
 </div>

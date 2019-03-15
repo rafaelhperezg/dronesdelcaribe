@@ -3,9 +3,71 @@
   padding: 50px 0;
   p {
     color: white;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+    // text-align: center;
   }
-  .logo {
-    width: 70px;
-    height: 70px;
+  h4 {
+    color: white !important;
+    margin-top: 0;
+  }
+  #logo-footer {
+    max-width: 150px;
+  }
+  .footer-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    .footer-element {
+      flex: 0 1 100%;
+      text-align: center;
+      padding: 10px;
+      &:nth-child(1) {
+
+      }
+      &:nth-child(2) {
+
+      }
+      &:nth-child(3) {
+      }
+    }
   }
 }
+
+
+/* RESPONSIVENESS
+--------------------------------------------------- */
+// After Small Screens
+@media only screen and(min-width: 768px) {
+  #footer {
+    p {}
+    h4 {
+
+    }
+    #logo-footer {
+    }
+    .footer-card {
+
+      .footer-element {
+        text-align: left;
+        padding: 0;
+        &:nth-child(1) {
+          flex: 0 1 30%;
+        }
+        &:nth-child(2) {
+          flex: 0 1 40%;
+        }
+        &:nth-child(3) {
+          flex: 0 1 30%;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
