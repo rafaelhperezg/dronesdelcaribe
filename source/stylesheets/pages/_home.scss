@@ -23,10 +23,8 @@
   .subtitle {
     flex: 1 1 100%;
   }
-  .flex-item {
-    // flex: 1 1 100%;
-    // background: white;
-    // padding: 40px 40px;
+  .member-container {
+    margin: 0 auto;
   }
 }
 
@@ -116,19 +114,26 @@
 }
 
 // Small Screens
+// TODO this shouldn exist as im doing mobile first
 @media only screen and(max-width: 767px) {
   #services {
     background-image: none;
   }
 }
 
+// From Ipad landscape
+@media only screen and(min-width: 1024px) {
+  #about-us {
+    .member-container {
+      // max-width: 50%;
+    }
+  }
+}
 // After Small Screens
 @media only screen and(min-width: 768px) {
   #about-us {
-    .flex-item {
-    //   flex: 0 1 32%;
-      padding: 80px 40px;
-    //   margin: 0
+    .member-container {
+      max-width: 50%;
     }
   }
   #services {
@@ -153,8 +158,4 @@
     }
   }
 }
-
-
-
-
 
